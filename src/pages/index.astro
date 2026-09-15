@@ -9,7 +9,23 @@ import '../styles/global.css';
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Home - Precon India</title>
+    <meta name="description" content="Precon Labor provides remote construction estimating and staffing support for US-based construction companies." />
+    <meta name="robots" content="index, follow" />
+    <title>Remote Construction Staffing &amp; Estimating | Precon Labor</title>
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Precon Labor',
+      legalName: 'Precon Labor LLC',
+      description: 'US-based construction staffing and remote construction estimating support for builders, contractors, and construction companies.',
+      url: 'https://preconindia.com',
+      areaServed: 'United States',
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'US'
+      },
+      knowsAbout: ['Construction estimating', 'Quantity takeoffs', 'Remote construction staffing', 'Preconstruction services']
+    })} />
   </head>
   <body class="overflow-x-hidden bg-white font-sans text-ink antialiased">
     <a class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100000] focus:rounded focus:bg-white focus:px-3 focus:py-2" href="#content">Skip to content</a>
@@ -376,6 +392,43 @@ import '../styles/global.css';
         </div>
       </section>
 
+      <section id="faq" class="bg-white px-[8%] py-[15%] md:px-[6%] md:py-[8%]">
+        <div class="mx-auto max-w-[1100px]">
+          <p class="text-center text-[18px] font-normal text-accent">FAQ</p>
+          <h2 class="mb-10 text-center text-[30px] font-semibold text-ink md:text-[50px]">Questions about remote staffing?</h2>
+          <div class="space-y-4">
+            <details class="group rounded-[20px] bg-[#F9F9FA] px-6 py-5 shadow-sm" open>
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-6 text-[18px] font-semibold text-secondary [&::-webkit-details-marker]:hidden">
+                <span>How can remote construction estimators support my team?</span>
+                <span class="text-2xl font-normal text-primary transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <p class="pt-4 text-[16px] leading-relaxed text-ink">Placeholder answer: Our remote professionals can support estimating, quantity takeoffs, preconstruction documentation, and other project workflows while working as an extension of your team.</p>
+            </details>
+            <details class="group rounded-[20px] bg-[#F9F9FA] px-6 py-5 shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-6 text-[18px] font-semibold text-secondary [&::-webkit-details-marker]:hidden">
+                <span>What construction roles can Precon Labor help staff?</span>
+                <span class="text-2xl font-normal text-primary transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <p class="pt-4 text-[16px] leading-relaxed text-ink">Placeholder answer: We can help connect construction companies with estimating, drafting, project coordination, quantity surveying, and other skilled remote professionals.</p>
+            </details>
+            <details class="group rounded-[20px] bg-[#F9F9FA] px-6 py-5 shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-6 text-[18px] font-semibold text-secondary [&::-webkit-details-marker]:hidden">
+                <span>How does remote staffing work across US time zones?</span>
+                <span class="text-2xl font-normal text-primary transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <p class="pt-4 text-[16px] leading-relaxed text-ink">Placeholder answer: Our staffing process is designed around overlapping schedules, clear communication, and workflows that keep your remote team aligned with your US-based projects.</p>
+            </details>
+            <details class="group rounded-[20px] bg-[#F9F9FA] px-6 py-5 shadow-sm">
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-6 text-[18px] font-semibold text-secondary [&::-webkit-details-marker]:hidden">
+                <span>Can I start with one professional or build a larger team?</span>
+                <span class="text-2xl font-normal text-primary transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <p class="pt-4 text-[16px] leading-relaxed text-ink">Placeholder answer: Yes. You can begin with a single specialist and scale your remote construction staffing support as your workload and business needs grow.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
       <section class="overflow-hidden bg-cover bg-center bg-no-repeat px-[1%] py-[15%] md:px-0 md:py-[8%_10%]" style="background-image:url('https://preconindia.com/wp-content/uploads/2023/08/blur016.svg')">
         <div class="mx-auto max-w-[1400px] px-4">
           <h2 class="text-center text-[18px] font-normal text-accent">TESTIMONIALS</h2>
@@ -389,7 +442,7 @@ import '../styles/global.css';
               </article>
 
               <article class="testimonial-slide min-w-0 rounded-[35px] bg-[#3F4A5F0A] p-[38px]">
-                <p class="text-[16px] leading-relaxed text-ink">“I recommend Precon for their exceptional collaboration. Their profound understanding of preconstruction intricacies, which includes detailed quantity take-offs, quals, preparing the estimating spreadsheets. Their accurate reports and commitment to deadlines provided a competitive edge during bids, enabling informed decisions and precise cost management. Precon India is an invaluable partner, dedicated to excellence and surpassing client expectations.”</p>
+                <p class="text-[16px] leading-relaxed text-ink">“I recommend Precon for their exceptional collaboration. Their profound understanding of preconstruction intricacies, which includes detailed quantity take-offs, quals, preparing the estimating spreadsheets. Their accurate reports and commitment to deadlines provided a competitive edge during bids, enabling informed decisions and precise cost management. Precon Labor is an invaluable partner, dedicated to excellence and surpassing client expectations.”</p>
                 <cite class="mt-6 block text-[14px] font-medium not-italic text-secondary">Preconstruction Head from $120M General Contracting Company, Washington</cite>
               </article>
 
@@ -447,7 +500,7 @@ import '../styles/global.css';
         <a href="https://preconindia.com">
           <img width="800" height="200" src="https://preconindia.com/wp-content/uploads/2023/08/precon-logo-v2-68b7e95189a9b.webp" class="h-auto w-[185px] brightness-[100]" alt="" srcset="https://preconindia.com/wp-content/uploads/2023/08/precon-logo-v2-68b7e95189a9b.webp 800w, https://preconindia.com/wp-content/uploads/2023/08/precon-logo-v2-68b7e95189a9b-300x75.webp 300w, https://preconindia.com/wp-content/uploads/2023/08/precon-logo-v2-68b7e95189a9b-768x192.webp 768w" sizes="(max-width: 800px) 100vw, 800px" />
         </a>
-        <p class="text-center text-[16px] font-normal text-white md:text-left">© 2026 Precon India Consulting LLP. All RIghts Reserved.</p>
+        <p class="text-center text-[16px] font-normal text-white md:text-left">Precon Labor All Rights Reserved.</p>
       </div>
     </footer>
 
