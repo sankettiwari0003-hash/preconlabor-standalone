@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Black.woff2") format("woff2");
+}
+
+@theme {
+  --font-sans: "Amiamie", sans-serif;
+  --color-primary: #4372ec;
+  --color-secondary: #3f4a5f;
+  --color-ink: #251e20;
+  --color-accent: #fb6445;
+}
+
+@keyframes tools-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.tools-track {
+  animation: tools-marquee 40s linear infinite;
+}
+
+.tools-track:hover {
+  animation-play-state: paused;
+}
