@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
-/* Remote WordPress font assets are intentionally disabled for preview isolation. */
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Amiamie";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://preconindia.com/wp-content/uploads/2023/08/Amiamie-Black.woff2") format("woff2");
+}
 
 @theme {
   --font-sans: "Amiamie", sans-serif;
